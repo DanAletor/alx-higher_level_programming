@@ -2,10 +2,10 @@
 import random
 number = random.randint(-10, 10)
 
-print("The number: ", number)
+print(f"{number} is", end=' ')
 if number > 0:
-    print("is positive")
+    print(" positive")
 elif number == 0:
-    print("is zero")
+    print(" zero")
 else:
-    print("is positive")
+    print(" positive")
