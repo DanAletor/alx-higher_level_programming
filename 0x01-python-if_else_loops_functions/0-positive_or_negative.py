@@ -4,8 +4,8 @@ number = random.randint(-10, 10)
 
 print(f"{number} is", end=' ')
 if number > 0:
-    print(" positive")
+    print("positive")
 elif number == 0:
-    print(" zero")
+    print("zero")
 else:
-    print(" positive")
+    print("positive")
