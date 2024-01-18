@@ -1,5 +1,5 @@
 #!/bin/bash
-python3 f{"$PYFILE"}
+python3 "$PYFILE"
 
 
 
